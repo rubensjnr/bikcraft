@@ -16,3 +16,7 @@
 @import "seguros/perguntas.css";
 @import "bicicleta/bicicleta.css";
 @import "bicicletas/seguro.css";
+
+@import "contato/contato.css";
+@import "contato/lojas.css";
+@import "utilidades/formularios.css";
