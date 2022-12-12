@@ -5,7 +5,7 @@
 }
 .form label{
     display: block;
-    font: 600 1rem/1.5 "Poppins", sans-serif;
+    font: 400 1rem/1.5 "Poppins", sans-serif;
     margin-bottom: 4px;
 }
 .form .col-2{
@@ -15,6 +15,7 @@
 .form input[type="text"],
 .form input[type="email"],
 .form textarea{
+    
     font: 400 1rem/1.5 "Roboto", sans-serif;
     background: var(--cor-1);
     border: 1px solid var(--cor-2);
