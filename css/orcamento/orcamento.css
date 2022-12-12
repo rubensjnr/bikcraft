@@ -1,7 +1,6 @@
 #orcamento{
     background: linear-gradient(var(--cor-11)700px, var(--cor-1) 0px);
 }
-
 .orcamento{
     display: grid;
     grid-template-columns: 5fr 7fr;
@@ -22,7 +21,6 @@
     position: absolute;
     left: -12px;
 }
-
 .orcamento-produto,.orcamento-dados{
     padding: 60px;
     box-shadow: 0 1px 2px rgba(0,0,0,0.1);
@@ -70,7 +68,6 @@
     position: absolute;
     pointer-events: none;
 }
-
 .orcamento-produto label::before{
     content: '';
     display: inline-block;
@@ -109,7 +106,6 @@
 .orcamento-dados h2:nth-of-type(n + 2){
     margin-top: 20px;
 }
-
 .orcamento-detalhes{
     background-color: var(--cor-0);
     padding: 20px;
@@ -130,7 +126,6 @@
 .orcamento-produto input:checked + label + .orcamento-detalhes{
     display: grid;
 }
-
 @media(max-width: 1200px){
     .orcamento-produto,.orcamento-dados{
         padding: 32px;
